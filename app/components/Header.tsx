@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <>
         <header className='w-full h-[100px] bg-white border-b border-[#E4E6F1] relative left-0 flex flex-row align-center justify-center'>
-            <h1 className={`absolute left-15 top-8 ${lobsterFont.className} text-[1.5rem] max-md:left-7 md:left-5`}>Foodieland</h1>
+            <h1 className={`absolute left-22 top-8 ${lobsterFont.className} text-[1.5rem] max-md:left-7 md:left-5 2xl:left-25 xl:left-25`}>Foodieland</h1>
             <ul className='inline-flex gap-12 absolute top-8 max-md:hidden md:top-10'>
                 <li className={`${interFont.className}`}><Link href="#" className='text-[1rem]'>Home</Link></li>
                 <li className={`${interFont.className}`}><Link href="#" className='text-[1rem]'>Recipes</Link></li>
