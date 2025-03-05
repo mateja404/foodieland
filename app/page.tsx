@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Header from "./components/Header";
 import HomePage from "./components/Home";
+import Categories from "./components/Categories";
 
 export const metadata: Metadata = {
   title: "Foodieland | Home",
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       <Header/>
       <HomePage/>
+      <Categories/>
     </>
   );
 }
