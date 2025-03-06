@@ -17,7 +17,7 @@ const Categories = () => {
   return (
     <>
         <div className='flex align-center justify-center'>
-            <div className='relative w-[95vw] h-[324px] mt-40'>
+            <div className='relative w-[95vw] h-[324px] mt-40 mb-40'>
               <h1 className={`text-black text-[48px] left-0 ${interFont.className}`}>Categories</h1>
               <button className='absolute top-4 bg-[#E6F9FD] pt-[18px] pb-[18px] pl-[30px] pr-[30px] rounded-2xl right-0 hover:cursor-pointer max-md:top-16 max-md:left-0 max-md:w-[50%] max-sm:w-[60%] max-sm:top-19 text-nowrap'>View All Categories</button>
               <div className='flex flex-row gap-10 justify-center align-center max-md:flex-col max-md:mt-20'>
