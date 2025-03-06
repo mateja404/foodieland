@@ -26,7 +26,7 @@ const SuperHotRecipes = () => {
   return (
     <>
         <div className='flex justify-center align-center'>
-            <div className='relative w-[95vw] h-[324px] mb-40 max-md:mt-380'>
+            <div className='relative w-[95vw] h-[324px] mb-300 max-md:mt-380'>
                 <h1 className={`text-black absolute text-[48px] left-1/2 translate-x-[-50%] ${interFont.className} max-md:text-[30px] text-nowrap`}>Simple and tasty recipes</h1>
                 <p className={`text-black absolute top-25 left-1/2 translate-x-[-50%] text-center ${interFont.className}`}>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
                 <div className='relative grid grid-cols-3 mt-60 mx-auto gap-y-12 place-items-center max-md:grid-cols-1 md:grid-cols-2 md:gap-[1rem] lg:grid-cols-3'>

@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import HomePage from "./components/Home";
 import Categories from "./components/Categories";
 import SuperHotRecipes from "./components/SuperHotRecipes";
+import Chief from "./components/Chief";
 
 export const metadata: Metadata = {
   title: "Foodieland | Home",
@@ -16,6 +17,7 @@ export default function Home() {
       <HomePage/>
       <Categories/>
       <SuperHotRecipes/>
+      <Chief/>
     </>
   );
 }
