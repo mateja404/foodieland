@@ -29,12 +29,12 @@ const Chief = () => {
                     </button>
                 </div>
                 <div className="absolute top-0 right-0 h-full w-full flex max-md:hidden xl:w-[50vw]">
-                    <div className="relative w-full flex justify-center items-center bg-gradient-to-t from-blue-300/30 rounded-[20px] md:hidden lg:flex xl:flex 2xl:flex">
-                        <Image src={chief} alt="chief" className="absolute bottom-0" />
-                        <Image src={vegan} alt="vegan" className="absolute top-30 right-5 lg:top-105 lg:right-2" />
-                        <Image src={meat} alt="meat" className="absolute left-37 lg:left-10" />
-                        <Image src={tomato} alt="tomato" className="absolute bottom-30 -left-5" />
-                        <Image src={onion} alt="onion" className="absolute right-55 top-20 xl:right-30 xl:top-10 lg:right-10 lg:top-10" />
+                    <div className="relative w-full flex justify-center items-center bg-gradient-to-t from-blue-300/30 rounded-[20px] md:flex lg:flex xl:flex 2xl:flex">
+                        <Image src={chief} alt="chief" className="absolute bottom-0 md:right-0" width={500} height={500}/>
+                        <Image src={vegan} alt="vegan" className="absolute top-30 right-5 md:hidden lg:top-105 lg:right-2" />
+                        <Image src={meat} alt="meat" className="absolute left-37 md:hidden lg:left-10" />
+                        <Image src={tomato} alt="tomato" className="absolute bottom-30 -left-5 md:hidden" />
+                        <Image src={onion} alt="onion" className="absolute right-55 top-20 md:hidden xl:right-30 xl:top-10 lg:right-10 lg:top-10" />
                     </div>
                 </div>
             </div>
