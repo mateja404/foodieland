@@ -20,7 +20,7 @@ const Categories = () => {
             <div className='relative w-[95vw] h-[324px] mt-40 mb-40'>
               <h1 className={`text-black text-[48px] left-0 ${interFont.className}`}>Categories</h1>
               <button className='absolute top-4 bg-[#E6F9FD] pt-[18px] pb-[18px] pl-[30px] pr-[30px] rounded-2xl right-0 hover:cursor-pointer max-md:top-16 max-md:left-0 max-md:w-[50%] max-sm:w-[60%] max-sm:top-19 text-nowrap'>View All Categories</button>
-              <div className='flex flex-row gap-10 justify-center align-center max-md:flex-col max-md:mt-20'>
+              <div className='grid grid-cols-6 place-items-center mx-auto gap-10 max-md:grid-cols-1 md:grid-cols-3 xl:grid-cols-6 max-md:mt-20'>
                 <div className='relative flex flex-col bg-gradient-to-t from-stone-200 via-white to-white pt-20 pb-20 pl-7 pr-7 rounded-[25px] text-center w-full md:w-auto max-md:mx-auto max-md:w-[70vw]'>
                   <Image src={breakfast} alt='breakfast' className='max-md:mx-auto' />
                   <p className={`absolute bottom-7 left-1/2 translate-x-[-50%] text-[#000] ${interFont.className}`}>Breakfast</p>

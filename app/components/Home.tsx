@@ -20,7 +20,7 @@ const HomePage = () => {
     <div className='flex align-center justify-center'>
         <div className='bg-[#E6F9FD] w-[80vw] h-[75vh] mt-10 rounded-[50px] relative max-md:w-full md:w-[95vw] max-sm:w-[100vw] max-sm:mx-auto max-sm:h-[90vh]'>
             <div className='absolute left-20 top-20 bg-white flex align-center pt-[10px] pb-[10px] pl-[30px] pr-[30px] rounded-[50px] max-sm:left-5'><Image className='translate-x-[-10px]' src={hotrecipes_pic} alt='hotrecipes_pic' /><span className={`font-semibold ${interFont.className}`}>Hot Recipes</span></div>
-            <h1 className='absolute left-20 top-35 text-[64px] font-bold max-md:text-[47px] max-sm:left-5 lg:left-6 lg:text-[50px]'>Spicy delicious <br/> chicken wings</h1>
+            <h1 className={`absolute left-20 top-35 text-[64px] font-bold max-md:text-[47px] max-sm:left-5 lg:left-6 lg:text-[50px] ${interFont.className}`}>Spicy delicious <br/> chicken wings</h1>
             <p className='absolute left-20 top-90 text-[1rem] max-sm:left-7 max-md:top-80 lg:left-6 lg:max-w-[400px] max-sm:max-w-[330px] max-sm:top-70 xl:top-75'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod <br/> tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
             <div className='absolute left-20 top-110 pt-[10px] pb-[10px] pl-[30px] pr-[30px] bg-[#DBEEF1] rounded-[50px] max-md:top-111 max-md:left-10 lg:left-6 lg:top-120 max-sm:top-98 max-sm:left-5 xl:top-100'>
                 <span className={`flex ${interFont.className} text-[14px]`}><Timer className='translate-x-[-15px]' />30 Minutes</span>
