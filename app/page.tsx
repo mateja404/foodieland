@@ -5,6 +5,7 @@ import Categories from "./components/Categories";
 import SuperHotRecipes from "./components/SuperHotRecipes";
 import Chief from "./components/Chief";
 import CheckOut from "./components/CheckOut";
+import DeliciousRecipes from "./components/DeliciousRecipes";
 
 export const metadata: Metadata = {
   title: "Foodieland | Home",
@@ -21,6 +22,7 @@ export default function Home() {
       <SuperHotRecipes/>
       <Chief/>
       <CheckOut/>
+      <DeliciousRecipes/>
     </>
   );
 }
