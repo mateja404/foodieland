@@ -5,6 +5,7 @@ import post1 from "../../public/post1.png";
 import post2 from "../../public/post2.png";
 import post3 from "../../public/post3.png";
 import post4 from "../../public/post4.png";
+import { Instagram } from 'lucide-react';
 
 const interFont = Inter({
     subsets: ["latin"],
@@ -25,7 +26,7 @@ const CheckOut = () => {
                     <Image src={post4} alt='post4' />
                 </div>
                 <button className={`absolute z-10 bottom-15 bg-black pt-[18px] pb-[18px] pl-[55px] pr-[55px] left-1/2 translate-x-[-50%] rounded-2xl text-white flex hover:cursor-pointer text-nowrap max-sm:bottom-30 max-sm:left-5 md:bottom-25 2xl:bottom-5`}>
-                        Visit Our Instagram
+                        Visit Our Instagram <Instagram className='translate-x-[15px]'/>
                 </button>
             </div>
         </div>
