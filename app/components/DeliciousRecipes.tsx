@@ -21,9 +21,9 @@ const DeliciousRecipes = () => {
     <>
         <div className='flex align-center justify-center'>
             <div className='relative w-[90%] h-[868px] mt-40'>
-                <h1 className={`absolute left-20 ${interFont.className} text-[48px]`}>Try this delicious recipe <br/> to make your day</h1>
-                <p className={`absolute right-20 top-7 ${interFont.className} text-[16px]`}>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor <br/> incididunt ut labore et dolore magna aliqut enim ad minim </p>
-                <div className='grid grid-cols-4 place-items-center gap-y-8 mt-50 max-md:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+                <h1 className={`absolute left-20 ${interFont.className} text-[48px] lg:text-[42px] max-sm:left-0 max-md:left-10 max-md:text-[30px] lg:left-10`}>Try this delicious recipe <br/> to make your day</h1>
+                <p className={`absolute right-20 top-7 ${interFont.className} text-[16px] lg:text-[14px] lg:right-10 md:left-20 md:top-40 max-md:top-30 max-sm:left-0 max-md:left-10`}>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor <br/> incididunt ut labore et dolore magna aliqut enim ad minim </p>
+                <div className='grid grid-cols-4 place-items-center gap-y-8 mt-50 max-md:grid-cols-1 max-md:mt-70 md:mt-70 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
                     <div className='relative w-[290px] h-[316px] bg-white'>
                         <Image src={fruitsalad} alt='fruitsalad' className='mx-auto translate-y-[0.5rem] rounded-3xl' />
                         <h1 className='absolute text-black text-[18px] left-5 top-55'>Mixed Tropical Fruit Salad with <br/> Superfood Boosts</h1>
