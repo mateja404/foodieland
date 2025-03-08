@@ -23,7 +23,7 @@ const DeliciousRecipes = () => {
             <div className='relative w-[90%] h-[868px] mt-40'>
                 <h1 className={`absolute left-20 ${interFont.className} text-[48px]`}>Try this delicious recipe <br/> to make your day</h1>
                 <p className={`absolute right-20 top-7 ${interFont.className} text-[16px]`}>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor <br/> incididunt ut labore et dolore magna aliqut enim ad minim </p>
-                <div className='grid grid-cols-4 place-items-center gap-y-8 mt-50'>
+                <div className='grid grid-cols-4 place-items-center gap-y-8 mt-50 max-md:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
                     <div className='relative w-[290px] h-[316px] bg-white'>
                         <Image src={fruitsalad} alt='fruitsalad' className='mx-auto translate-y-[0.5rem] rounded-3xl' />
                         <h1 className='absolute text-black text-[18px] left-5 top-55'>Mixed Tropical Fruit Salad with <br/> Superfood Boosts</h1>
@@ -62,7 +62,7 @@ const DeliciousRecipes = () => {
                     </div>
                     <div className='relative w-[290px] h-[316px] bg-white'>
                         <Image src={wraps} alt='wraps' className='mx-auto translate-y-[0.5rem] rounded-3xl' />
-                        <h1 className='absolute text-black text-[18px] left-5 top-55'>Firecracker Vegan Lettuce Wraps - <br/> Spicy! </h1>
+                        <h1 className='absolute text-black text-[18px] left-5 top-55'>Firecracker Vegan Lettuce Wraps- <br/> Spicy! </h1>
                         <p className={`${interFont.className} flex absolute bottom-1 left-5`}><Timer className='w-[23px]'/> 30 Minutes</p>
                         <p className={`${interFont.className} flex absolute bottom-1 left-38`}><Utensils className='w-[23px]'/> <span className={`${interFont.className} ml-[5px]`}>Snack</span></p>
                     </div>
