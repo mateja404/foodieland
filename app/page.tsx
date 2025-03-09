@@ -7,6 +7,7 @@ import Chief from "./components/Chief";
 import CheckOut from "./components/CheckOut";
 import DeliciousRecipes from "./components/DeliciousRecipes";
 import Inbox from "./components/Inbox";
+import Hero from "./components/Hero";
 
 export const metadata: Metadata = {
   title: "Foodieland | Home",
@@ -18,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Header/>
-      <HomePage/>
+      <Hero/>
       <Categories/>
       <SuperHotRecipes/>
       <Chief/>
