@@ -24,10 +24,9 @@ const CheckOut = () => {
                     <Image src={post2} alt='post2' />
                     <Image src={post3} alt='post3' />
                     <Image src={post4} alt='post4' />
-                <button className={`absolute bottom-0 bg-black pt-[18px] pb-[18px] pl-[55px] pr-[55px] left-1/2 translate-x-[-50%] rounded-2xl text-white flex hover:cursor-pointer text-nowrap max-sm:bottom-7 md:bottom-25 2xl:bottom-5`}>
+                <button className={`absolute bottom-0 bg-black pt-[18px] pb-[18px] pl-[55px] pr-[55px] left-1/2 translate-x-[-50%] rounded-2xl text-white flex hover:cursor-pointer text-nowrap max-sm:bottom-7 md:bottom-25 2xl:bottom-5`} aria-label='Visit Our Instagram'>
                         Visit Our Instagram <Instagram className='translate-x-[15px]'/>
                 </button>
-                <button></button>
                 </div>
             </div>
         </div>

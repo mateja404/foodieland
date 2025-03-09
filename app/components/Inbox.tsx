@@ -26,8 +26,9 @@ const Inbox = () => {
                 type='email'
                 placeholder='Your email address...'
                 className='rounded-2xl pt-7 pb-7 pl-8 pr-32 bg-white w-full max-md:w-[350px] lg:w-[400px] xl:w-[450px]'
+                aria-label='Enter your email address'
               />
-              <button className='pt-5 pb-5 pl-10 pr-10 bg-black text-white absolute top-2 right-0 rounded-2xl hover:cursor-pointer'>Subscribe</button>
+              <button className='pt-5 pb-5 pl-10 pr-10 bg-black text-white absolute top-2 right-0 rounded-2xl hover:cursor-pointer' aria-label='Subscribe to our newsletter'>Subscribe</button>
             </div>
           </div>
         </div>

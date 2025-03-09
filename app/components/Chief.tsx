@@ -24,7 +24,7 @@ const Chief = () => {
                     <p className={`absolute left-0 right-0 top-[90px] text-[1rem] max-sm:left-[0rem] max-sm:translate-x-3 sm:left-20 max-sm:text-[14px] max-md:top-80 lg:left-6 lg:max-w-[400px] max-sm:max-w-[400px] max-sm:top-60 md:top-70 md:left-10 xl:top-75 xl:left-15 w-full break-words 2xl:top-90 2xl:left-15`}>
                         Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqut enim <br /> ad minim
                     </p>
-                    <button className={`absolute z-10 bottom-15 bg-black pt-[18px] pb-[18px] pl-[55px] pr-[55px] left-10 rounded-2xl text-white flex hover:cursor-pointer text-nowrap max-sm:bottom-30 max-sm:left-5 md:bottom-25 2xl:bottom-5`}>
+                    <button className={`absolute z-10 bottom-15 bg-black pt-[18px] pb-[18px] pl-[55px] pr-[55px] left-10 rounded-2xl text-white flex hover:cursor-pointer text-nowrap max-sm:bottom-30 max-sm:left-5 md:bottom-25 2xl:bottom-5`} aria-label='Learn More'>
                         Learn More
                     </button>
                 </div>
