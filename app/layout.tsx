@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="preload" href="/chickenpic.webp" as="image" type="image/png" />
+        <link rel="preload" href="/chickenpic.webp" as="image" type="image/webp" />
       </head>
       <body
         className={`antialiased`}
