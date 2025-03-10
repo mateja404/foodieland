@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import { Timer, Utensils } from 'lucide-react';
 import badge from "../../public/badge.png";
-import chickenpic from "../../public/chickenpic.png";
+import chickenpic from "../../public/chickenpic.webp";
 import heroavatar from "../../public/heroavatar.png";
 import hotrecipes_pic from "../../public/heropic.png";
 import playbtn from "../../public/playbtn.png";
