@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             <div className='absolute bottom-0 left-1/2 translate-x-[-50%] h-[50%] w-[90%] max-md:h-[70%]'>
                 <Separator className='absolute top-0 bg-black/20 max-md:top-5 max-sm:top-15'/>
-                <Link href="https://github.com/mateja404" className={`${interFont.className} text-center absolute top-10 left-1/2 translate-x-[-50%] max-sm:top-21 text-nowrap`}>&copy; 2025 coded by <span className='text-[#FF6363]'>Mateja</span></Link>
+                <Link href="https://github.com/mateja404" className={`${interFont.className} text-center absolute top-10 left-1/2 translate-x-[-50%] max-sm:top-21 text-nowrap`}>&copy; 2025 coded by <span className='underline-offset-1 underline'>Mateja</span></Link>
                 <ul className='absolute right-10 inline-flex gap-x-10 top-10 max-md:left-1/2 max-md:right-auto max-md:translate-x-[-50%] max-md:bottom-2 max-md:top-auto'>
                     <li><Link href="https://facebook.com" aria-label='Visit our Facebook page'><Facebook className='fill-black' /></Link></li>
                     <li><Link href="https://x.com" aria-label='Visit our Twitter page'><Twitter className='fill-black' /></Link></li>
