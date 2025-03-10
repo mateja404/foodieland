@@ -34,19 +34,21 @@ const Header = () => {
                 <li><Link href="https://instagram.com" aria-label='Visit our instagram'><Instagram /></Link></li>
             </ul>
             <Menu onClick={() => setIsSidebarOpen(prevState => !prevState)} className='hidden max-md:block absolute top-10 right-12' />
-            <ul className={`fixed top-0 right-0 w-full h-full bg-white z-50 transform ${isSidebarOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
-                <li className='absolute top-5 right-10' onClick={() => setIsSidebarOpen(prevState => !prevState)}><X className='' /></li>
-                <li className='absolute left-10 top-10'><Link href="/" className='text-xl' aria-label='Visit home page'>Home</Link></li>
-                <li className='absolute left-10 mt-7 top-10'><Link href="#" className='text-xl' aria-label='Visit recipes page'>Recipes</Link></li>
-                <li className='absolute left-10 mt-14 top-10'><Link href="#" className='text-xl' aria-label='Visit blog page'>Blog</Link></li>
-                <li className='absolute left-10 mt-21 top-10'><Link href="#" className='text-xl' aria-label='Visit contact page'>Contact</Link></li>
-                <li className='absolute left-10 mt-28 top-10'><Link href="#" className='text-xl' aria-label='Visit about us page'>About us</Link></li>
-                <ul className='relative flex align-center justify-center mx-auto'>
-                    <li className='fixed bottom-10 mr-30'><Link href="https://facebook.com" aria-label='Visit our facebook'><Facebook className='fill-black' /></Link></li>
-                    <li className='fixed bottom-10'><Link href="https://x.com" aria-label='Visit our twitter'><Twitter className='fill-black' /></Link></li>
-                    <li className='fixed bottom-10 ml-30'><Link href="https://instagram.com" aria-label='Visit our instagram'><Instagram /></Link></li>
+            <div className={`fixed top-0 right-0 w-full h-full bg-white z-50 transform -translate-x-full transition-transform duration-300 ease-in-out ${isSidebarOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+                <ul>
+                    <li className='absolute top-5 right-10' onClick={() => setIsSidebarOpen(prevState => !prevState)}><X className='' /></li>
+                    <li className='absolute left-10 top-10'><Link href="/" className='text-xl' aria-label='Visit home page'>Home</Link></li>
+                    <li className='absolute left-10 mt-7 top-10'><Link href="#" className='text-xl' aria-label='Visit recipes page'>Recipes</Link></li>
+                    <li className='absolute left-10 mt-14 top-10'><Link href="#" className='text-xl' aria-label='Visit blog page'>Blog</Link></li>
+                    <li className='absolute left-10 mt-21 top-10'><Link href="#" className='text-xl' aria-label='Visit contact page'>Contact</Link></li>
+                    <li className='absolute left-10 mt-28 top-10'><Link href="#" className='text-xl' aria-label='Visit about us page'>About us</Link></li>
                 </ul>
-            </ul>
+                <ul className='relative flex align-center justify-center mx-auto'>
+                        <li className='fixed bottom-10 mr-30'><Link href="https://facebook.com" aria-label='Visit our facebook'><Facebook className='fill-black' /></Link></li>
+                        <li className='fixed bottom-10'><Link href="https://x.com" aria-label='Visit our twitter'><Twitter className='fill-black' /></Link></li>
+                        <li className='fixed bottom-10 ml-30'><Link href="https://instagram.com" aria-label='Visit our instagram'><Instagram /></Link></li>
+                </ul>
+            </div>
         </header>
     </>
   )
