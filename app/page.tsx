@@ -1,13 +1,13 @@
 import { Metadata } from "next";
 import Header from "./components/Header";
-import HomePage from "./components/Home";
+import Hero from "./components/Hero";
 import Categories from "./components/Categories";
 import SuperHotRecipes from "./components/SuperHotRecipes";
 import Chief from "./components/Chief";
 import CheckOut from "./components/CheckOut";
 import DeliciousRecipes from "./components/DeliciousRecipes";
 import Inbox from "./components/Inbox";
-import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Foodieland | Home",
@@ -26,6 +26,7 @@ export default function Home() {
       <CheckOut/>
       <DeliciousRecipes/>
       <Inbox/>
+      <Footer/>
     </>
   );
 }
