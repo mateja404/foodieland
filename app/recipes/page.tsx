@@ -10,6 +10,9 @@ import { Timer, Utensils, Printer, Share } from 'lucide-react';
 import NutritionInformation from '../components/NutritionInformation';
 import OtherRecipes from '../components/OtherRecipes';
 import IngredientsList from '../components/Ingredients';
+import Directions from '../components/Directions';
+import Inbox from '../components/Inbox';
+import Footer from '../components/Footer';
 
 export const metadata: Metadata = {
   title: "Foodieland | Recipes",
@@ -23,6 +26,11 @@ const interFont = Inter({
 });
 
 const Recipes = () => {
+  const ingredientsWithDescription = [
+    { ingredient: "1. Lorem ipsum dolor sit amet", description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem." },
+    { ingredient: "2. Lorem ipsum dolor sit amet", description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem." },
+    { ingredient: "3. Lorem ipsum dolor sit amet", description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem." }
+  ];
   return (
     <>
       <Header />
@@ -72,11 +80,16 @@ const Recipes = () => {
                 "Lorem ipsum dolor sit amet",
               ]}
                 sauce={["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"]} />
+              <Directions ingredientsWithDescription={ingredientsWithDescription} />
             </div>
             <div className="flex-1">
               <OtherRecipes />
             </div>
           </div>
+          <div className='mt-290'>
+            <Inbox/>
+          </div>
+      <Footer/>
         </div>
       </div>
     </>

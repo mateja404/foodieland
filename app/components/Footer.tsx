@@ -18,6 +18,7 @@ const Footer = () => {
   return (
     <>
         <footer className='relative w-full h-[193px] mt-40 max-sm:h-[210px]'>
+            <div className='absolute bottom-0 w-full h-[193px]'>
             <div className='absolute left-1/2 translate-x-[-50%] h-[50%] w-[90%] max-sm:text-center'>
                 <h1 className={`${lobsterFont.className} text-[24px]`}>Foodieland</h1>
                 <p className={`${interFont.className} mt-3 max-sm:mt-1 max-sm:text-[0.9rem]`}>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
@@ -36,6 +37,7 @@ const Footer = () => {
                     <li><Link href="https://x.com" aria-label='Visit our Twitter page'><Twitter className='fill-black' /></Link></li>
                     <li><Link href="https://instagram.com" aria-label='Visit our Instagram page'><Instagram /></Link></li>
                 </ul>
+            </div>
             </div>
         </footer>
     </>
