@@ -10,7 +10,7 @@ const interFont = Inter({
 const NutritionInformation = ({  }) => {
   return (
     <>
-        <div className='flex absolute top-65 right-0 bg-blue-300/30 w-[400px] h-[600px] rounded-[30px]'>
+        <div className='translate-y-[-100px] bg-blue-300/30 w-[400px] h-[600px] rounded-[30px] max-md:translate-y-[-50px] md:translate-y-[0px] max-md:h-[450px] md:h-[450px]'>
             <h1 className={`${interFont.className} text-[24px] absolute left-5 top-5`}>Nutrition Information</h1>
             <p className={`absolute left-5 top-17 text-[18px] ${interFont.className} text-black/50`}>Calories</p>
             <span className={`absolute top-17 right-5 text-[18px] ${interFont.className} text-black`}>219.9 kcal</span>
