@@ -31,11 +31,11 @@ const Directions = ({ ingredientsWithDescription = [] }: IngredientsListProps) =
   };
 
   return (
-    <>
-      <div className="mt-20 flex flex-col items-center gap-8 absolute left-0">
+    <div className="relative left-0 w-full">
+      <div className="mt-20 flex flex-col items-center gap-8 absolute left-0 top-140">
         <h1 className={`${interFont.className} text-[36px] font-semibold absolute left-0`}>Directions</h1>
 
-        <div className="flex flex-col space-y-4 w-full max-w-xl mt-20">
+        <div className="flex flex-col space-y-4 w-full max-w-xl mt-20 text-start">
           {ingredientsWithDescription.map((item, index) => (
             <div
               key={index}
@@ -78,7 +78,7 @@ const Directions = ({ ingredientsWithDescription = [] }: IngredientsListProps) =
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
