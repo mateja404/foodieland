@@ -14,6 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="bPhZw7bjzChp1OonKjbnS067cx_OUqauUIUxvLXlmms" />
         <link rel="preload" href="/chickenpic.webp" as="image" type="image/webp" />
       </head>
       <body
